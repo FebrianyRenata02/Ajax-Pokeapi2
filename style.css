@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 90%;
+    color: #fff;
+    font-family: sans-serif;
+    background: url("https://cdn.wallpapersafari.com/10/8/859o6m.jpg");
+}
+
+.bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+button {
+    margin: 20px auto 30px auto;
+    display: block;
+    border-radius: 50px;
+    background-color: #e6d082;
+    border: 16px solid #e6d082;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(246, 189, 32);
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#wrap {
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+h2,
+h3 {
+    font-size: 15px;
+    color: white;
+}
+
+.grass {
+    background-color: #8dd694;
+    border: 2px solid #5dad65;
+}
+
+.water {
+    background-color: #8dc5e6;
+    border: 2px solid #74a5cf;
+}
+
+.fire {
+    background-color: #e69d8d;
+    border: 2px solid #d39e93;
+}
+
+.bug {
+    background-color: #bddd7a;
+    border: 2px solid #acc87c;
+}
+
+.normal {
+    background-color: #b1b1b1;
+    border: 2px solid #b8b8b8;
+}
+
+.flying {
+    background-color: #c8adec;
+    border: 2px solid #c2a6e6;
+}
+
+.rock {
+    background-color: #b89d71;
+    border: 2px solid #af956b;
+}
+
+.ground {
+    background-color: #efbe85;
+    border: 2px solid #d6ac7a;
+}
+
+.psychic {
+    background-color: #d053bc;
+    border: 2px solid #c44eb1;
+}
+
+.ghost {
+    background-color: #825f94;
+    border: 2px solid #7d6189;
+}
+
+.dark {
+    background-color: #686868;
+    border: 2px solid #5a5a5a;
+}
+
+.steel {
+    background-color: #588fa3;
+    border: 2px solid #658b99;
+}
+
+.poison {
+    background-color: #a55eb1;
+    border: 2px solid #975ca0;
+}
+
+.poison {
+    background-color: #a55eb1;
+    border: 2px solid #975ca0;
+}
+
+.electric {
+    background-color: #e7c859;
+    border: 2px solid #d6bc60;
+}
+
+.fairy {
+    background-color: #eea1e2;
+    border: 2px solid #e397d6;
+}
+
+.figthing {
+    background-color: #e07f60;
+    border: 2px solid #cf7659;
+}
+
+.dragon {
+    background-color: #8859d5;
+    border: 2px solid #8859d5;
+}
+
+.ice {
+    background-color: #71d8de;
+    border: 2px solid #77c8cb;
+}
