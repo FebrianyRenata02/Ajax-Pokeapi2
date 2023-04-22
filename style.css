@@ -34,7 +34,7 @@ h1 {
 button {
     margin: 20px auto 30px auto;
     display: block;
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: #e6d082;
     border: 16px solid #e6d082;
     cursor: pointer;
